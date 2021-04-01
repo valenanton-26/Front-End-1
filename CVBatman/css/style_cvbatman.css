@@ -1,0 +1,51 @@
+/* Selector de etiqueta */
+/* digo que todo lo del cuerpo tiene una determinada tipografia */
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+} 
+
+header{
+    background-color: #ddd;
+    line-height: 2;
+    text-align: center;
+    color: #00264d;
+    font-family: Cambria, Times, serif;
+}
+
+footer{
+    background-color: #1f497d;
+    color: #ddd;
+    font-size: 24px;
+    text-align: center;
+}
+
+h1,h2{
+    background-color: #bfbfbf;
+    letter-spacing: 0.5em;
+}
+
+h1{
+    color: #1f497d;
+}
+
+h3{
+    color: blue;
+}
+
+h2{
+    color: #632423;
+    font-family: Cambria, Times, serif;
+}
+
+/* Selector de clase */
+.item-detail{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.img-link{
+    height: 20px;
+    width: 20px;
+}
+
+        
