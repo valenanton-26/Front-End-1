@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ELEMENTOS */
+
+h1{
+    color: white;
+    background-color: #00669F;
+    font-weight: normal;
+    padding: 1rem;
+    padding-top:40px; 
+    box-shadow:5px 5px 5px grey;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+aside{
+    background-color:#1CD1B0;
+    font-size: 20px;
+    height: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+footer{
+    background-color:#00669F;
+    size: 3rem;
+    position:relative;   
+    height: 3rem;
+}
+
+footer img{
+    position:relative;
+    height: 2rem;
+    color:white;
+    z-index: 2;
+    padding-left: 90%;
+    margin-top: 0.5rem;
+    
+}
+
+footer spam{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-left: 36%;
+    margin-top: 1rem;
+}
+
+/* CLASES */
+
+.cards-super{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.card-header{
+    position:relative;
+    border-radius: 60px 60px 0px 0px;
+
+}
+
+.card{
+    margin-top: 100px;
+}
+
+.card-header div{
+    position: absolute;
+    top: 350px;
+    right: 300px;
+}
+
+/* imagenes de background */
+
+.card-header-bat{
+    background-image: url("../img/bg-batman.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card-header-wonder{
+    background-image: url("../img/bg-wonderw.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card-header-superman{
+    background-image: url("../img/bg-superman.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* imagenes de perfil */
+
+.img-bat{
+    background-image: url("../img/batman.jpg");
+    width: 300px;
+    height: 300px;
+    background-position-x: -180px;
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.img-wonder{
+    background-image: url("../img/wonderw.jpg");
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.img-super{
+    background-image: url("../img/superman.jpg");
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+/* extras */
+.fa-heart{ 
+    color: red;
+    font-size: 3rem;
+    position: absolute;
+    left:30px;
+    top: 30px;
+}
+
+.icono-mas i{
+    color: white;
+    background-color: #00669f;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 1rem;
+    position:fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 3;
+}
+
+.fa-plus{
+    color:white;
+
+}
+
+/* los bodys de las tarjetas */
+
+.card-body{
+    background-color: #f3f3f3;
+    padding: 180px 50px 40px;
+    margin-bottom: 20px;
+    box-shadow:0px 5px 5px grey;
+}
+
+.card-body a{
+    display: block;
+    background-color: #00669f;
+    color:white;
+    width: 100px;
+    margin: auto;
+    height: 50px;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+
+
