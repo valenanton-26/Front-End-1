@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="css\style-registro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <aside>
+        <p>20% de descuento en todos los productos!</p>
+    </aside>
+    <header>
+        <img src="img/OBJECTS.png" class="icono-pagina">
+        <span>Super Store</span>
+    </header>
+    <main>
+        <section class="ingreso">
+            <h1>Registro</h1>
+            <form action="pagina.html" target="_blank" class="formulario">
+                <p>
+                    <input name="usuario" type="nombreApellido" placeholder="NOMBRE Y APELLIDO" class="completar"
+                    required oninvalid = "setCustomValidity('Completar este campo')">
+                </p>
+                <p>
+                    <input name="email" type="email" placeholder="CORREO ELECTRONICO" class="completar"
+                    required oninvalid = "setCustomValidity('Completar este campo')">
+                </p>
+
+                <p>
+                    <input name="password" type="password" placeholder="CONTRASEÑA" class="completar"
+                    required oninvalid = "setCustomValidity('Completar este campo')">
+                </p>
+                <p>
+                    <select name="pais" id="pais" placeholder="PAIS" class="completar">
+                        <option selected disable hidden>PAIS</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="uruguay">Uruguay</option>
+                    </select>
+                    
+                </p>
+                <spam>
+                    <button type="reset" class="boton-resetear">Resetear</button>
+                    <button type="submit" class="boton-entrar">Entrar</button>
+                </spam>
+            </form>
+            <div id="ingresar">¿Ya tenes una cuenta? <a href="ingreso.html" target="_blank">Ingresar</a></div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div>
+            Todos los derechos reservados a Front End I
+        </div>
+        
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #00669F;
+    --secondary-color: #1CD1B0;
+    --grey-color: #888888;
+}
+
+/* ETIQUETAS */
+
+aside{
+    background-color:var(--secondary-color);
+    font-size: 20px;
+    height: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+}
+
+aside p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+    position: absolute;
+    width: 283px;
+    left: 15px;
+    top: -10px;
+}
+
+header{
+    background-color:var(--main-color);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top:23px;
+    left:0px;
+    padding-top:25px; 
+    z-index:2;
+}
+
+header span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    left: 18px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+section{
+    background-image: url("../img/bg-harley.png");
+    height: 608px;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    left:-8px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+footer{
+    background-color:var(--main-color);
+    position:absolute;   
+    height: 50px;
+    left:0px;
+    top: 575px;
+    right:0px;
+}
+
+footer div{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-left: 36%;
+    margin-top: 1rem;
+}
+
+/* SELECTORES */
+
+.card-harley{
+    position: absolute;
+    width: 550px;
+    height: 370px;
+    display: inline-block;
+    right: 420px;
+    top: 160px;
+    background-color: white;
+    padding: 100px 30px;
+    border-radius: 45px;
+}
+
+.img-harley{
+    background-image: url("../img/harley.png");
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -80px;
+    right:210px;    
+}
+
+.card-body h2{
+    top: 22px;
+    font-size: 30px;
+    color: #2C0187;
+    text-decoration: underline;
+    font-style: italic;
+    left: calc(50% - 88.5px);
+    position: absolute;
+}
+
+.card-body p{
+    font-size: 16px;
+    position: absolute;
+    text-align: justify;
+    left: 13px;
+    right: 13px;
+    top: 90px;
+}
+
+.bate{
+    background-image: url(../img/bate\ 1.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 25%;
+    top: 68%;
+}
+
+.pistola{
+    background-image: url(../img/pistola.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 45%;
+    top: 68%;
+    background-repeat: no-repeat;
+}
+
+.bazooka{
+    background-image: url(../img/bazooka\ 1.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 62%;
+    top: 68%;
+    background-repeat: no-repeat;
+}
+
+.volverHome{
+    background-color: #2C0187;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0px 0px 45px 45px;    
+}
+
+.volverHome spam{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 52px);
+}
+
+/* EXTRAS */
+.corazon-Pixelado{
+    background-image: url(../img/corazon.png);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 47px;
+    top: 30px;
+    background-repeat: no-repeat;
+}
